@@ -2,26 +2,31 @@
 
 :root { 
     font-family: 'Jost', sans-serif;
-}
-
-.about-list article {
-border: 1 px solid green;
-
-}
-
-
-body {
     max-width: 980px;
     margin: auto;
 }
 
-
-
-
-
-
-
-
-link {
-    background-image: url(img.first.png);
+.about-list img {
+    width: 50%;
+    margin: auto;
 }
+
+.about-list h3 {
+text-align: left;
+}
+
+
+.our-works article img {
+width: 50%;
+margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
