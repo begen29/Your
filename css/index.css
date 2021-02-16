@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+:root { 
+    font-family: 'Jost', sans-serif;
+}
+
+.about-list article {
+border: 1 px solid green;
+
+}
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+link {
+    background-image: url(img.first.png);
+}
