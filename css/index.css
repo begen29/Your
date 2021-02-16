@@ -12,9 +12,7 @@ header nav .logo {
     font-weight: bold; 
     color: green;
     text-transform: uppercase;
-    background-image: url(/img/you-garden.png);
-    background-size: cover;
-
+ 
   
 }
 header nav .menu {
@@ -36,6 +34,14 @@ header nav .menu {
     color: green;
 
 }
+.about-list article {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+
 
 .about-list img {
     width: 100%;
