@@ -12,9 +12,8 @@ header nav .logo {
     font-weight: bold; 
     color: green;
     text-transform: uppercase;
- 
-  
-}
+ }
+
 header nav .menu {
     background-image: url(/img/leaf-three.png);
     display: flex;
@@ -22,9 +21,7 @@ header nav .menu {
     padding: 0;
     list-style-type: none;
     flex-wrap: wrap;
-
 }
-
 
 .banner {
     background-image: url(/img/first.png);
@@ -32,16 +29,8 @@ header nav .menu {
     text-transform: uppercase;
     width: 100%;
     color: green;
-
 }
-.about-list article {
-    border: 1px solid green;
-    display: grid;
-    grid-template-columns: 1fr;
-    
-}
-
-
+      
 
 .about-list img {
     width: 100%;
@@ -59,7 +48,7 @@ margin: auto;
 
 }
 
-
+ 
 
 
 
