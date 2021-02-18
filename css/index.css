@@ -14,8 +14,14 @@ header nav .logo {
     text-transform: uppercase;
  }
 
+ img {
+    width: 100%;
+    margin: auto;
+}
+
 header nav .menu {
     background-image: url(/img/leaf-three.png);
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -30,9 +36,8 @@ header nav .menu {
     width: 100%;
     color: green;
 }
-      
-
-.about-list img {
+    
+img {
     width: 100%;
     margin: auto;
 }
@@ -41,6 +46,11 @@ header nav .menu {
 text-align: left;
 }
 
+.services-list img {
+width: 50%;
+margin: auto;
+
+}
 
 .our-works article img {
 width: 50%;
