@@ -37,12 +37,8 @@ header nav .menu {
     color: green;
 }
     
-img {
-    width: 100%;
-    margin: auto;
-}
 
-.about-list h3 {
+.about h3 {
 text-align: left;
 }
 
