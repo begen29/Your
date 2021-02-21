@@ -26,7 +26,7 @@ function prevImage() {
     showCurrentImage();
 }
 
-document.querySelectorAll('.prev').addEventListener('click', pverImage);
+document.querySelectorAll('.prev').addEventListener('click', prevImage);
 document.querySelectorAll('.next').addEventListener('click', nextImage);
 
 setInterval(nextImage, 5000);
