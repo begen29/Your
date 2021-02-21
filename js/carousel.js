@@ -11,7 +11,6 @@ let currIdx = 0;
 function showCurrentImage() {
     const imgContainer = document.querySelector('.current');
     imgContainer.src = images[currIdx];
-
 }
 showCurrentImage();
 
@@ -28,4 +27,6 @@ function prevImage() {
 }
 
 document.querySelectorAll('.prev').addEventListener('click', pverImage);
-document.querySelector('.next').addEventListener('click', nextImage);
+document.querySelectorAll('.next').addEventListener('click', nextImage);
+
+setInterval(nextImage, 5000);
