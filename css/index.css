@@ -4,24 +4,27 @@
     font-family: 'Jost', sans-serif;
     max-width: 980px;
     margin: auto;
+    --main-color: green;
+    --accent-color: rgb(97, 221, 25);
+  
 }
 
-header nav .logo {
+nav.logo {
     font-family: 'Jost', sans-serif;
     font-size: 1rem;
     font-weight: bold; 
-    color: green;
-    text-transform: uppercase;
-   
- }
+    display: flex;
+   }
 
- body {
+body {
+  background-color: whitesmoke;
   max-width: 980px;
   margin: auto;
-
  }
 
- img {
+
+
+img {
     width: 100%;
     margin: auto;
 }
@@ -47,7 +50,6 @@ header {
 
 }
     
-
 .about h3 {
 text-align: left;
 }
@@ -59,6 +61,11 @@ footer {
     width: 100%;
     color:black
 
+}
+
+button {
+    background-color: green;
+    color:white;
 }
 
  
